@@ -1,0 +1,7 @@
+while wait (0.0001) do
+local args = {
+    [1] = game:GetService("Players").LocalPlayer
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RareEvents"):WaitForChild("KnightNormalCoins"):FireServer(unpack(args))
+end
