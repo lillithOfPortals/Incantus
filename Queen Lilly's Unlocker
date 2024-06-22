@@ -1,8 +1,6 @@
 local mt = getrawmetatable(game);
 local old = mt.__namecall
-local readonly = setreadonly or make_writeable
-
-local MarketplaceService = game:GetService("MarketplaceService");
+local readonly = setreace = game:GetService("MarketplaceService");
 
 readonly(mt, false);
 
